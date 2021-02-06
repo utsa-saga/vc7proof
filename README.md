@@ -3,6 +3,7 @@ This program is intend to verify that all of the visibilities are correct in lim
 
 How to execute:
 chmod +x ./run.sh
+
 ./run.sh
 
 Note that input.txt stores the coordinates of guards and viewpoints, where A, B, C, ..., G represents g_1, g_2, g_3, ..., g_7, and rest of points are all viewpoints (e.g. CEG represents vp_3,5,7). We do have two duplicated viewpoints ABCDEF and BCDEFG, therefore the total points in this terrain are 129, we omitted the viewpoint sees empty set and the viewpoint only see one guard, which can be realiazable easily. 
